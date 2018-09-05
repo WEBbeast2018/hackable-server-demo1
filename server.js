@@ -32,6 +32,6 @@ app.all('*', (req, res) => {
   res.end('invalid resource');
 });
 
-app.listen(4000,
-  () => console.log('data server listening on port 4000')
+app.listen(8080,
+  () => console.log('data server listening on port 8080')
 );
